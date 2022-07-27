@@ -8,6 +8,7 @@
     <title>penguin fashion</title>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -24,7 +25,7 @@
 
 <body>
     <!-- header section start -->
-    <header class=" bg-pink-300 pb-10">
+    <header class="sticky top-0">
         <!-- navigation start -->
         <section class="h-20 bg-gray-200">
             <nav>
@@ -40,9 +41,13 @@
             </nav>
         </section>
         <!-- navigation end -->
+    </header>
+    <!-- header section end -->
+    <!-- main section start -->
+    <main class="bg-gray-300">
         <!-- ads section start -->
-        <section>
-            <div class="container mx-auto grid grid-cols-2 my-10 ">
+        <section class=" bg-pink-300">
+            <div class="container mx-auto grid grid-cols-2 mb-10 ">
                 <div>
                     <div class="flex flex-col justify-start">
                         <span class="uppercase text-6xl text-yellow-300">Be the Penguins</span>
@@ -67,10 +72,7 @@
             </div>
         </section>
         <!-- ads section end -->
-    </header>
-    <!-- header section end -->
-    <!-- main section start -->
-    <main class="bg-gray-300">
+
         <!-- woman jacket section star -->
         <section id="#womanjacket" class="container mx-auto py-16">
             <h1 class="uppercase text-5xl font-semibold pb-10">W0Man Jacket</h1>
@@ -575,6 +577,7 @@
 
     </main>
     <!-- main section end -->
+
 </body>
 <footer>
     <div class="bg-black h-20 text-white text-4xl text-center">go...</div>
